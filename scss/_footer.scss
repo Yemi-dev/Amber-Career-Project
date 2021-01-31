@@ -1,0 +1,25 @@
+
+ footer {
+    padding: 3rem;
+    background-color: black;
+    color: white;
+      img {
+          height:100px;
+          width: 170px;
+          object-fit: cover;
+      }
+
+      svg {
+        color: rgba(233,233,233,0.95);
+      }
+
+      ul {
+          flex-direction: column;
+      }
+      li{
+          list-style: none;
+          a {
+            color: white;
+          }
+      }
+ }

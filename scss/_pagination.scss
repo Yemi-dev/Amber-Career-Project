@@ -1,0 +1,22 @@
+.pagination {
+
+    .page-item {
+        padding: 0 .3rem;
+            }
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #007cba;
+    border-color: #007cba;
+}
+
+.page-link {
+    font-family: $font-family;
+    border-radius: .2rem;
+    border-color: gray;
+    font-size: .8rem;
+    padding:  .5rem .7rem;
+    color:gray;
+}

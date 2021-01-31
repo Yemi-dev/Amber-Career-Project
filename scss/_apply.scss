@@ -1,0 +1,33 @@
+.apply-card {
+    margin: 7rem 0 4rem 0;
+    width: 70%;
+    height: fit-content;
+    border-radius: .3rem;
+    border: 2px solid white;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2), 2px 3px 5px rgba(0,0,0,0.5);
+    font-family: $font-family;
+ 
+    form {
+        .form-group {
+            margin: 1rem;
+        font-size: 1.2rem;
+        }
+       .btn-apply {
+           margin: 2rem 0;
+           input{
+               background-color: $orange; 
+               color:white;
+           }
+       }
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .apply-card {
+        margin: 5rem 0 2rem 0;
+    width: 95%;
+    padding: 1rem;
+    }
+   }
