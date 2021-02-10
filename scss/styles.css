@@ -292,8 +292,8 @@ h1 {
 
 footer {
   padding: 3rem;
-  background-color: black;
-  color: white;
+  background-color: rgba(231, 96, 12, 0.3);
+  color: black;
 }
 
 footer img {
@@ -303,7 +303,7 @@ footer img {
 }
 
 footer svg {
-  color: rgba(233, 233, 233, 0.95);
+  color: white;
 }
 
 footer ul {
@@ -315,11 +315,15 @@ footer li {
 }
 
 footer li a {
+  color: black;
+}
+
+footer .copyright p {
   color: white;
 }
 
 .full-card {
-  margin: 5rem 0 4rem 0;
+  margin: 7rem 0 3rem 0;
   width: 80%;
   height: fit-content;
   border-radius: .3rem;
@@ -397,9 +401,63 @@ footer li a {
   }
 }
 
+.admin {
+  width: 80%;
+}
+
+.adminform {
+  margin: 8rem 0 5rem 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.adminform .admininput {
+  padding: .9rem 1rem;
+  width: 30%;
+  border: 1px solid #c5cbce;
+  border-radius: .5rem;
+  margin-right: 1.5rem;
+}
+
+.adminform .adminbtn {
+  background-color: #f58239;
+  padding: .85rem 1rem;
+  width: 15%;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 650px) {
+  .adminform .admininput {
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+  .adminform .adminbtn {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .adminform .admininput {
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    font-size: .8rem;
+  }
+  .adminform .adminbtn {
+    width: 90%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.theader {
+  color: #007cba;
+  background-color: rgba(0, 124, 186, 0.3);
 }
 /*# sourceMappingURL=styles.css.map */

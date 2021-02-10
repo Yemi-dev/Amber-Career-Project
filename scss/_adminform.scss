@@ -1,0 +1,60 @@
+.admin{
+    width:80%;
+}
+
+.adminform {
+    margin: 8rem 0 5rem 0;
+    font-family: $font-family;
+    .admininput {
+        padding:.9rem 1rem;
+        width: 30%;
+        border: 1px solid rgb(197, 203, 206);
+        border-radius: .5rem;
+        margin-right: 1.5rem;
+    }
+    .adminbtn {
+        background-color: $orange;
+        padding:.85rem 1rem;
+        width: 15%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+
+  
+
+       
+
+@media screen and (max-width: 1000px) {
+    
+}
+
+@media screen and (max-width: 650px) {
+    .adminform {
+        .admininput {
+            width: 90%;
+            margin-bottom: 1rem;
+            margin-right: 0;
+        }
+        .adminbtn {
+            width: 90%;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 290px) {
+    .adminform {
+        .admininput {
+            width: 90%;
+            margin-bottom: 1rem;
+            margin-right: 0;
+            font-size: .8rem;
+        }
+        .adminbtn {
+            width: 90%;
+        }
+    }
+    
+}
